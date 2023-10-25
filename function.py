@@ -1,7 +1,7 @@
-def C_para_F (C):
-    F = (C*9/5) + 32
-    return F
+def C_para_F (Celsius):
+    Farenheit = (Celsius*9/5) + 32
+    return Farenheit
 
-def F_para_C (F):
-    C = ((F-32)*5)/9
-    return C
+def F_para_C (Farenheit):
+    Celsius = (Farenheit-32)*5/9
+    return Celsius
